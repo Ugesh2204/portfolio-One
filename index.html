@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Side Menu</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".menu-icon").click(function(){
+                    $(".menu-icon").toggleClass("active")
+                })
+
+                $(".menu-icon").click(function(){
+                    $(".sidebar").toggleClass("active")
+                })
+            })
+        </script>
+     
+    </head>
+    <body>
+
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <header class="sidebar">
+            <div class="logo">
+                <a href="#"></a><img src="./images/logo.png"></a>
+            </div>
+            <h1 class="name">
+                Ugesh Roopchand
+            </h1>
+            <p class="sub-head">Full stack Web Developer</p>
+            <ul class="menu">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+            <div class="drupal">
+                <p>POWERED BY DRUPAL <strong>8</strong></p>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="wrapper">
+                <section>
+                    <div class="content">
+                        <div class="content--header">
+                            <h2 class="section-title">Welcome to My PortFolio</h2>
+                        </div>
+                        <p class="description">
+                            Hello there, My name is Ugesh Roopchand and this is my little
+                            space on the internet. I am a Web Developer and I enjoy coding.   
+                        </p>
+                        <p class="description">
+                            I have a diverse set of skills ranging from <strong class="highlight">HTML5+CSS3+JAVASCRIPT+JQUERY</strong> 
+                            all the way to <strong class="highlight">PHP,OOP, MYSQL.</strong> I have experience with <strong class="highlight">
+                            TWIG templating </strong> and <strong class="highlight">YAML configuration </strong> files ,
+                             <strong class="highlight">Custom Drupal Theming and Module development.</strong>
+
+                        </p>
+                        
+                       
+                    </div>
+                </section>
+            </div>
+        </main>
+
+    </body>
+</html>
