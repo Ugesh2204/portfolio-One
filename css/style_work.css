@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.one-half--view {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    
+ }
+ .one-half--view  .mask,.one-half--view  .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+  
+ }
+
+ /*Vertical center*/
+ .one-half--view .light_box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+ }
+  /*****/
+
+.one-half--view img {
+   /*display: block;*/
+   position: relative;
+}
+.one-half--view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+.one-half--view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.one-half--view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #000;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.vone-half--view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+
+
+
+@media(min-width:700px){
+
+
+    
+}

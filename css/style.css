@@ -1,3 +1,4 @@
+/*Global css*/
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,18 @@ body {
     background: url(../images/bg.png) repeat 0 0 fixed;
 }
 
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* End Global css*/
 
 
 /*Mobile icon*/
@@ -62,20 +75,12 @@ body {
     padding:2rem 0rem;
 }
 
-.name {
-    font-size: 1.2em;
-    visibility: visible;
-    color: #0099FF;
-    font-family: sans-serif;
+.logo img {
+    width: 138px;
+    height: 158px;
 }
 
-.sub-head {
-    margin-top: .5rem;
-    font-weight: 800;
-    color: #fff;
-    opacity: 0.8;
-    font-family: sans-serif;
-}
+
 
 /*Side bar*/
 .sidebar {
@@ -135,7 +140,9 @@ body {
 }
 
 
-/*Mobile version */
+
+/*Welcome*/
+
 
 .main .wrapper {
     padding: 3rem 1rem;
@@ -144,6 +151,8 @@ body {
 .content{
     padding: 2rem 0rem;
     text-align:center;
+    overflow-wrap: break-word;
+    
 }
 
 .content--header {
@@ -169,25 +178,51 @@ body {
     color: #0099FF;
 }
 
+.name {
+    font-size: 1.2em;
+    visibility: visible;
+    color: #0099FF;
+    font-family: sans-serif;
+    padding: 0rem 0.2rem;
+}
+
+.sub-head {
+    margin-top: .5rem;
+    font-weight: 800;
+    color: #fff;
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+
+/*Work */
+
+.one-half{
+    width:100%;
+    float:none;
+    padding-right: 0rem !important;
+}
+
+.one-half:nth-child(2) {
+    padding-right: 0rem !important;;
+}
+
+/*Work gallery effect*/
 
 
 
 
 /*Responsive Css*/
 
-
-
-
 @media(min-width:700px){
     .sidebar {
         position: fixed;
         left: 0px;
-        width: 33.33%;
+        width: 24.997%;
         float:left;
     
     }
     .main {
-        width: 66.66%;
+        width: 75.03%;
         float: right;
      
     }
@@ -199,6 +234,7 @@ body {
     .content{
         padding: 2rem 2rem;
         text-align:center;
+       
     }
 
     .content--header {
@@ -224,6 +260,24 @@ body {
         color: #0099FF;
     }
 
-    
+    /*work*/
+    .row {
+        width: 100%;
+        display: flex;
+        padding-bottom: 21px;
+    }
+    .one-half{
+        width:50%;
+        float:left;
+        padding-right: 1.5rem !important;
+        box-sizing: border-box;
+        flex:0.5656;
+    }
+  .one-half:nth-child(2) {
+        padding-right: 0rem !important;;
+    }
+   
+
+    /**/
     
 }
