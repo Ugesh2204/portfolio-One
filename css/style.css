@@ -127,6 +127,37 @@ img {
     color: #fff;
 }
 
+
+/*Social icon **/
+
+.social-icon {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 18px;
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 4rem;
+}
+
+.social-icon li {
+    width: 20%;
+    display: inline-block;
+    text-align:center;
+    list-style-type: none;
+}
+
+.social-icon li a {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  
+    
+}
+
+
 .drupal {
     padding: 1rem;
 }
