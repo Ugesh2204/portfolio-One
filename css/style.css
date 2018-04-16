@@ -93,6 +93,7 @@ img {
     transition: .5s;
     text-align: center;
     box-sizing: border-box;
+    z-index: 999;
 }
 
 .sidebar.active {
@@ -277,6 +278,10 @@ img {
         padding-right: 0rem !important;;
     }
    
+
+    .menu-icon {
+        display:none;
+    }
 
     /**/
     

@@ -2,7 +2,24 @@
 
 
 jQuery(document).ready(function ($) {
-	
+    
+        /*---------------------------------------------*
+     * Mobile slide effect
+     ---------------------------------------------*/
+
+     $(".menu-icon").click(function(){
+        $(".menu-icon").toggleClass("active")
+    })
+
+    $(".menu-icon").click(function(){
+        $(".sidebar").toggleClass("active")
+    })
+
+
+    $(".sidebar").click(function(){
+        $(".sidebar").toggleClass("active")
+    })
+
 	
 	/*---------------------------------------------*
      * Preloader
